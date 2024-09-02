@@ -1,0 +1,30 @@
+// We need to figure out the cubic feet of Wongs refrigerator 
+modelName // model of fridge
+height // fridge height
+width // fridge width
+depth // fridge depth
+fridgeCapactiy // the fridge capacity
+
+// start the process
+
+start
+
+// Wong inputs the fridge model and its dimensions
+
+	input modelName
+	input height
+	input width
+	input depth
+
+// calculate the fridges capacity in cubic inches
+
+	fridgeCapacity = (depth * height * width) / 1728
+
+// output the calculation
+
+	output fridgeCapacity
+
+// end process
+
+stop
+
